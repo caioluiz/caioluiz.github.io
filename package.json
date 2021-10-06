@@ -1,0 +1,19 @@
+{
+  "name": "ecobbloom",
+  "version": "1.0.0",
+  "description": "projeto eco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caioluiz/ecobbloom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caioluiz/ecobbloom/issues"
+  },
+  "homepage": "https://github.com/caioluiz/ecobbloom#readme"
+}
