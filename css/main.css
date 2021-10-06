@@ -6,7 +6,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -37,7 +37,7 @@ span {
 }
 
 .section {
-  color: #fff;
+  color: #CD853F;
   margin: 15px 0;
 }
 
@@ -48,7 +48,7 @@ span {
 }
 
 .bg-img {
-  background-image: url(css/imagens/bg.jpg);
+  background-image: url(imagens/fundoimg.jpg);
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ span {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  background: rgba(105, 105, 105, 1);
+  background: #8B4513;
 }
 
 .header-bar .nome {
@@ -316,7 +316,7 @@ main {
   padding: 10px 15px;
   margin: 0 20px 20px;
   z-index: 5;
-  background: rgba(105, 105, 105, 0.9);
+  background: rgba(139, 69, 19, 0.9);
 }
 
 @media (min-width: 1024px) {
