@@ -6,7 +6,7 @@ body,
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: #EADEB8;
 }
 
 body {
@@ -48,7 +48,8 @@ span {
 }
 
 .bg-img {
-  background-image: url(imagens/fundoimg.jpg);
+  /*background-image: url(imagens/fundoimg.jpg); */
+  background-color: #CFB784;
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -145,7 +146,7 @@ span {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  background: #16314F;
+  background: #C56824;
 }
 
 .header-bar .nome {
@@ -316,7 +317,7 @@ main {
   padding: 10px 15px;
   margin: 0 20px 20px;
   z-index: 5;
-  background: rgba(22,49,79, 0.9);
+  background: #C56824;
 }
 
 @media (min-width: 1024px) {
@@ -625,4 +626,11 @@ main {
 
 .habilidades .descricao {
   font-size: 1.2rem;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
 }
