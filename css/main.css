@@ -48,7 +48,7 @@ span {
 }
 
 .bg-img {
-  /*background-image: url(imagens/fundoimg.jpg); */
+  background-image: url(imagens/fundo2.webp); 
   background-color: #CFB784;
   background-position: center;
   object-fit: cover;
@@ -146,7 +146,7 @@ span {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  background: #C56824;
+  background: #000000;
 }
 
 .header-bar .nome {
@@ -317,7 +317,7 @@ main {
   padding: 10px 15px;
   margin: 0 20px 20px;
   z-index: 5;
-  background: #C56824;
+  background: rgba(8,32,50,0.9);
 }
 
 @media (min-width: 1024px) {
