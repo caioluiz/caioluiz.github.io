@@ -637,8 +637,12 @@ footer {
   clear: both;
   position: relative;
   height: 200px;
+
+}
+.fo-proj {
   display: flex;
+  height: 200px;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
 }
