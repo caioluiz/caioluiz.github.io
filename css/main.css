@@ -629,6 +629,7 @@ main {
 }
 
 footer {
+  display: flex;
   margin: 0px;
   padding: 0px;
   background-color: #000000;
@@ -637,12 +638,31 @@ footer {
   clear: both;
   position: relative;
   height: 200px;
-
+  justify-content: center;
 }
+
 .fo-proj {
   display: flex;
-  height: 200px;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fo-row{
+  display: inline-block;
+  margin: 5px;
+}
+
+@media (min-width: 1250px) {
+  footer .fo-proj {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer .fo-proj {
+    font-size: 1.2rem;
+  }
 }
