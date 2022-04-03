@@ -632,13 +632,10 @@ footer {
   display: flex;
   margin: 0px;
   padding: 0px;
-  background-color: #000000;
-  border-top: 1px solid rgb(255, 255, 255, 0.7);
-  bottom: 0px;
-  clear: both;
-  position: relative;
   height: 200px;
+  position: relative;
   justify-content: center;
+  background-color: #000000;
 }
 
 .fo-proj {
