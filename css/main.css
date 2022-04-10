@@ -40,7 +40,15 @@ span {
   color: #CD853F;
   margin: 0px 0;
 }
-
+.conhecimentos-list{
+  display: flex;
+  
+  
+}
+.conhecimento-i{
+  display: flex;
+  margin: 5px
+}
 @media (min-width: 1024px) {
   .section {
     margin: 0px 0;
@@ -69,6 +77,11 @@ span {
   font-size: 1.7rem;
 }
 
+.exp {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
 .subtitulo {
   font-family: 'Lexend Deca', sans-serif;
   font-weight: 900;
@@ -99,7 +112,7 @@ span {
 }
 
 .descricao {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -416,6 +429,7 @@ main {
 .conhecimentos .conhecimentos-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 15px 0;
@@ -423,7 +437,7 @@ main {
 
 @media (min-width: 1024px) {
   .conhecimentos .conhecimentos-list {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
